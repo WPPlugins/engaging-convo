@@ -1,0 +1,245 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.clear:before, .clear:after, .clearfix:before, .clearfix:after { content: ""; display: table; clear: both; }
+
+.enco-editor-highlight {
+    color: red !important;
+}
+
+.enco-admin-mb-thread {
+    border: 1px solid black;
+    background: #F9F9F9;
+    padding: 1em 2em;
+    margin-bottom: 1em;
+}
+
+.enco-admin-mb-thread .enco-admin-mb-thread-content {
+    float: left;
+}
+
+.enco-admin-mb-thread h1 {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.enco-admin-mb-thread .enco-status {
+
+    height: 1em;
+    width: 1em;
+    background: grey;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: .5em;
+}
+
+.enco-admin-mb-thread.enco-status-error {
+    border-color: red;
+    background: rgba(255, 0, 0, 0.15);
+}
+.enco-admin-mb-thread.enco-status-error .enco-status {
+    background: red;
+}
+
+.enco-admin-mb-thread.enco-status-found {
+    border-color: green;
+    background: rgba(0, 255, 0, 0.15);
+}
+.enco-admin-mb-thread.enco-status-found .enco-status {
+    background: green;
+}
+
+
+.enco-com-count {
+    float: right;
+    display: inline-block;
+    font-size: .6em;
+    text-align: center;
+    width: 2em;
+    height: 2.2em;
+    background-size: 2em;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url('../../assets/images/bubble.svg');
+}
+
+
+.enco-admin-mb-comments {
+    display: none;
+    margin-top: 1.5em;
+}
+
+
+
+
+.enco-comment-list,
+.enco-comment {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.enco-comment {
+    margin-bottom: 1em;
+}
+
+.enco-comment-green .enco-comment-itself,
+.enco-comment-green header {
+    background: rgba( 54, 244, 67, 0.5 ) !important;
+}
+
+.enco-comment-deleted > .enco-comment-itself,
+.enco-comment-deleted > .enco-comment-itself header{
+    background: rgba( 244, 54, 54, 0.5 ) !important;
+}
+
+.enco-comment-children {
+    padding-left: 2%;
+    margin-top: .25em;
+}
+
+.enco-comment-itself {
+    background: #FFF;
+    border-radius: 3px;
+    border: 1px solid #F3F3F3;
+}
+
+.enco-comment-itself > header {
+    padding: .5em .8em;
+    background: #F9F9F9;
+    border-bottom: 1px solid #F6F6F6;
+}
+
+.enco-comment-gravatar {
+    float: right;
+    margin-left: .75em;
+}
+
+img.enco-gravatar-image {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.enco-comment-author {
+    font-weight: 600;
+}
+
+.enco-comment-date {
+    color: #666;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+}
+
+.enco-comment-content {
+    padding: 1em;
+}
+
+.enco-comment-content-inner {
+    font-size: .9em;
+}
+
+.enco-comment footer {
+    padding: 0 1em 1em;
+}
+
+.enco-comment-actions {
+    font-size: .7em;
+    font-family: sans-serif;
+    letter-spacing: .5pt;
+    text-transform: uppercase;
+    float: right;
+}
+
+.enco-comment-actions a,
+.enco-comment-actions span {
+    cursor: pointer;
+    padding: .3em .6em;
+    background: #F7F7F7;
+    border-radius: 2px;
+    font-size: .8em;
+    color: #000;
+    text-decoration: none;
+}
+
+.enco-comment-reactions {
+    float: left;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.enco-reaction {
+    display: inline-block;
+    margin-right: .3em;
+    opacity: .5;
+    cursor: pointer;
+}
+.enco-reaction:hover { opacity: 1; }
+
+.enco-reaction-icon img {
+    width: 1em;
+    vertical-align: middle;
+}
+
+.enco-reaction-count {
+    font-size: .6em;
+    font-weight: bold;
+}
+
+.enco-comment .enco-reply-container {
+    padding: 0 1em;
+}
+
+.enco-comment .enco-reply-container header {
+    display: none;
+}
+
+
+.column-thread_subject h1 {
+    background: #FF9800;
+    line-height: 1.2;
+    padding: .5em;
+    margin: 0;
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.column-thread_subject .the-post {
+    display: block;
+    margin: 1em 0;
+}
+
+.promo-btn-1, .promo-btn-1:hover {
+    padding: 1em 2em;
+    background: #FF9800;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    display: inline-block;
+    opacity: .9;
+}
+.promo-btn-1:hover { opacity: 1; }
+
+.enco-settings-promo-1 ul {
+    font-size: 1.5em;
+}
+
+.enco-settings-promo-1 li {
+    padding: .5em .5em .5em 2em;
+    background: url('http://image005.flaticon.com/159/svg/138/138839.svg') no-repeat left;
+    background-size: 1em;
+}
+
+
+
+
+
+
+
+
+
